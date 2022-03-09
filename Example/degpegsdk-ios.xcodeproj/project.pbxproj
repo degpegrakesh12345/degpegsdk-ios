@@ -40,11 +40,11 @@
 		607FACE51AFB9204008FA782 /* degpegsdk-ios_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "degpegsdk-ios_Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		714C34657B16726EE4C857D7 /* degpegsdk-ios.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = "degpegsdk-ios.podspec"; path = "../degpegsdk-ios.podspec"; sourceTree = "<group>"; };
-		8A77A98D6162B2AE57069C69 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		714C34657B16726EE4C857D7 /* degpegsdk-ios.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "degpegsdk-ios.podspec"; path = "../degpegsdk-ios.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8A77A98D6162B2AE57069C69 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A6C2F9063EC0927F01FD9FE6 /* Pods_degpegsdk_ios_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_degpegsdk_ios_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBFACD37D5EE98C475E47031 /* Pods-degpegsdk-ios_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-degpegsdk-ios_Example.debug.xcconfig"; path = "Target Support Files/Pods-degpegsdk-ios_Example/Pods-degpegsdk-ios_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		CA09016904E96105BFE81D87 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CA09016904E96105BFE81D87 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		CE8D0A49A918C6B80F05A37F /* Pods_degpegsdk_ios_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_degpegsdk_ios_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDC6AB1D22CDF635EB0EFCC2 /* Pods-degpegsdk-ios_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-degpegsdk-ios_Tests.debug.xcconfig"; path = "Target Support Files/Pods-degpegsdk-ios_Tests/Pods-degpegsdk-ios_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,7 +86,6 @@
 				FDC6AB1D22CDF635EB0EFCC2 /* Pods-degpegsdk-ios_Tests.debug.xcconfig */,
 				33AA019F3C079198641D064A /* Pods-degpegsdk-ios_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

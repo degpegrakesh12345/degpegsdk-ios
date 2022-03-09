@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		00B58DB3549E8D945FFE6968A78AF9EC /* Pods-degpegsdk-ios_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB85A1E6B32CD7603AA77DCF5790A3E /* Pods-degpegsdk-ios_Tests-dummy.m */; };
+		1801A9D927D9554500C8D0B2 /* MyKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1801A9D827D9554500C8D0B2 /* MyKeyboard.swift */; };
 		2A6987C2C2D0803E011EA88D8E689FCB /* Pods-degpegsdk-ios_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F0CDE939DB77E8E46549B90A64D2368 /* Pods-degpegsdk-ios_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3C59A9BFAE3ED64CB5329C414DC12235 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEACD7886BE6C0E85861EE90787CD15E /* ReplaceMe.swift */; };
 		3F69269CF802FEA3A049E5FFC276C13E /* Pods-degpegsdk-ios_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C0C6AF24742B8F7660EEAAAB98BE266 /* Pods-degpegsdk-ios_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		412E8EA104CF1619F1A39A58E5CFC101 /* degpegsdk-ios-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A37037FC764DEF0E5EDD0A2D5F78220 /* degpegsdk-ios-dummy.m */; };
 		41F5C1A8BAC1CBBE66954E712C778E6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -39,10 +39,11 @@
 /* Begin PBXFileReference section */
 		07467FCCC3AC4630D7013D73C74D9156 /* degpegsdk-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "degpegsdk-ios.release.xcconfig"; sourceTree = "<group>"; };
 		08D3432E812656D564D0C86B8A93772C /* Pods-degpegsdk-ios_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-degpegsdk-ios_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1801A9D827D9554500C8D0B2 /* MyKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyKeyboard.swift; sourceTree = "<group>"; };
 		1BFAF42786E33C8AFE8A51C97737D74C /* Pods-degpegsdk-ios_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-degpegsdk-ios_Tests-Info.plist"; sourceTree = "<group>"; };
 		1C0C6AF24742B8F7660EEAAAB98BE266 /* Pods-degpegsdk-ios_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-degpegsdk-ios_Tests-umbrella.h"; sourceTree = "<group>"; };
 		210F2B3ABDB67C8E39904EFBB100DAFF /* Pods-degpegsdk-ios_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-degpegsdk-ios_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		2819A076632E4F95598A2174024819BA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2819A076632E4F95598A2174024819BA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		290F0CB3CF3B3391C17A3714ED2D2FE3 /* Pods-degpegsdk-ios_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-degpegsdk-ios_Example-Info.plist"; sourceTree = "<group>"; };
 		2CB85A1E6B32CD7603AA77DCF5790A3E /* Pods-degpegsdk-ios_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-degpegsdk-ios_Tests-dummy.m"; sourceTree = "<group>"; };
 		2CD4F008654A4C1DDE1509A72CDFF0F7 /* Pods-degpegsdk-ios_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-degpegsdk-ios_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -51,25 +52,24 @@
 		6D27020AB11CE8B592EED747B99ED695 /* degpegsdk-ios-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "degpegsdk-ios-prefix.pch"; sourceTree = "<group>"; };
 		6DCC813F4F9915A9DF65019E7C0361DC /* Pods-degpegsdk-ios_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-degpegsdk-ios_Tests"; path = Pods_degpegsdk_ios_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F17CA910D1D7264A66F69743AEFF7A5 /* Pods-degpegsdk-ios_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-degpegsdk-ios_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		7029BC5795B3088AE11F2712CD2E4178 /* degpegsdk-ios.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "degpegsdk-ios.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7029BC5795B3088AE11F2712CD2E4178 /* degpegsdk-ios.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "degpegsdk-ios.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		70331C4B1BC894B1CEDC0D1A0214EB75 /* Pods-degpegsdk-ios_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-degpegsdk-ios_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7E13696471B89B1140917798E708CE9C /* degpegsdk-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "degpegsdk-ios.debug.xcconfig"; sourceTree = "<group>"; };
 		846905980D1D978FD19EB61FCE91E74E /* degpegsdk-ios-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "degpegsdk-ios-Info.plist"; sourceTree = "<group>"; };
 		86DEE059C3B4547AF2D562D85A9A256E /* Pods-degpegsdk-ios_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-degpegsdk-ios_Tests.modulemap"; sourceTree = "<group>"; };
 		8F0CDE939DB77E8E46549B90A64D2368 /* Pods-degpegsdk-ios_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-degpegsdk-ios_Example-umbrella.h"; sourceTree = "<group>"; };
-		9944F009799EFBECF6F6445F909E0120 /* degpegsdk-ios */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "degpegsdk-ios"; path = degpegsdk_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9944F009799EFBECF6F6445F909E0120 /* degpegsdk_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = degpegsdk_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A37037FC764DEF0E5EDD0A2D5F78220 /* degpegsdk-ios-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "degpegsdk-ios-dummy.m"; sourceTree = "<group>"; };
-		9B67BDF62DFDCAE48A92AB548E1FF3A8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B67BDF62DFDCAE48A92AB548E1FF3A8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A6CED57D378F1C1438D8269347F90863 /* Pods-degpegsdk-ios_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-degpegsdk-ios_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		ABF5B070EDBE6EF565E48D42343FD2CC /* Pods-degpegsdk-ios_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-degpegsdk-ios_Example-dummy.m"; sourceTree = "<group>"; };
 		C2D76EFBB9138F7C948A651C626F199F /* Pods-degpegsdk-ios_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-degpegsdk-ios_Example-frameworks.sh"; sourceTree = "<group>"; };
 		C947E9EBE284EA8B713554F846CC2442 /* degpegsdk-ios-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "degpegsdk-ios-umbrella.h"; sourceTree = "<group>"; };
 		D90C79B4E523288A91656C71F5A36EB5 /* Pods-degpegsdk-ios_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-degpegsdk-ios_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DEACD7886BE6C0E85861EE90787CD15E /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = "degpegsdk-ios/Classes/ReplaceMe.swift"; sourceTree = "<group>"; };
 		EC9D681606DFFF17F85BF4875C77CD5F /* degpegsdk-ios.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "degpegsdk-ios.modulemap"; sourceTree = "<group>"; };
-		FA238BC1C67BA6A8162B5FB6E3321FCA /* Pods-degpegsdk-ios_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-degpegsdk-ios_Example"; path = Pods_degpegsdk_ios_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA238BC1C67BA6A8162B5FB6E3321FCA /* Pods_degpegsdk_ios_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_degpegsdk_ios_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +100,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1801A9D527D954EE00C8D0B2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1801A9D827D9554500C8D0B2 /* MyKeyboard.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		1F08AF391BDA26620DF28FE9B22AF403 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -154,8 +162,8 @@
 		5965611E043B9DB2A8725B8729F74D37 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9944F009799EFBECF6F6445F909E0120 /* degpegsdk-ios */,
-				FA238BC1C67BA6A8162B5FB6E3321FCA /* Pods-degpegsdk-ios_Example */,
+				9944F009799EFBECF6F6445F909E0120 /* degpegsdk_ios.framework */,
+				FA238BC1C67BA6A8162B5FB6E3321FCA /* Pods_degpegsdk_ios_Example.framework */,
 				6DCC813F4F9915A9DF65019E7C0361DC /* Pods-degpegsdk-ios_Tests */,
 			);
 			name = Products;
@@ -181,7 +189,7 @@
 		5C74BB24F7F669FFAA2A4EE89BA5B33D /* degpegsdk-ios */ = {
 			isa = PBXGroup;
 			children = (
-				DEACD7886BE6C0E85861EE90787CD15E /* ReplaceMe.swift */,
+				1801A9D527D954EE00C8D0B2 /* Classes */,
 				4E2E892B6F61B3089248510CD38B9593 /* Pod */,
 				8658FD9C0262609AD19A3392CE7CDF7A /* Support Files */,
 			);
@@ -268,7 +276,7 @@
 			);
 			name = "degpegsdk-ios";
 			productName = degpegsdk_ios;
-			productReference = 9944F009799EFBECF6F6445F909E0120 /* degpegsdk-ios */;
+			productReference = 9944F009799EFBECF6F6445F909E0120 /* degpegsdk_ios.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		2D211CDCE0CC150F151C78C03C3DA79C /* Pods-degpegsdk-ios_Example */ = {
@@ -287,7 +295,7 @@
 			);
 			name = "Pods-degpegsdk-ios_Example";
 			productName = Pods_degpegsdk_ios_Example;
-			productReference = FA238BC1C67BA6A8162B5FB6E3321FCA /* Pods-degpegsdk-ios_Example */;
+			productReference = FA238BC1C67BA6A8162B5FB6E3321FCA /* Pods_degpegsdk_ios_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B27DAFDACA786C7CF4F261B312A313FA /* Pods-degpegsdk-ios_Tests */ = {
@@ -367,8 +375,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1801A9D927D9554500C8D0B2 /* MyKeyboard.swift in Sources */,
 				412E8EA104CF1619F1A39A58E5CFC101 /* degpegsdk-ios-dummy.m in Sources */,
-				3C59A9BFAE3ED64CB5329C414DC12235 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -718,8 +726,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
