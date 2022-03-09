@@ -26,7 +26,7 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'degpegrakesh12345' => 'rakesh.kumar@degpeg.com' }
 #  s.source           = { :git => 'https://github.com/degpegrakesh12345/degpegsdk-ios.git', :tag => s.version.to_s }
-s.source       = { :git => "https://github.com/kevinrandrup/DropDownMenu.git", :commit => "0d6761feefccff1f7d8b7c7788ceb8e9cd1314ea" }
+s.source       = { :git => "https://github.com/degpegrakesh12345/degpegsdk-ios.git", :commit => "0d6761feefccff1f7d8b7c7788ceb8e9cd1314ea" }
 s.source_files  = 'Classes/*.{h,m}'
 #  s.source_files  = 'Classes/*.{h,m}'
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
