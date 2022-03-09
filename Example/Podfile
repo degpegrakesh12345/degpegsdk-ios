@@ -4,16 +4,23 @@ platform :ios, '9.0'
 
 target 'degpegsdk-ios_Example' do
   pod 'degpegsdk-ios', :path => '../'
-  post_install do |installer|
-      installer.pods_project.targets.each do |target|
-          target.build_configurations.each do |config|
-              config.build_settings['GCC_WARN_INHIBIT_ALL_WARNINGS'] = "YES"
-          end
-      end
-  end
+#  post_install do |installer|
+#      installer.pods_project.targets.each do |target|
+#          target.build_configurations.each do |config|
+#              config.build_settings['GCC_WARN_INHIBIT_ALL_WARNINGS'] = "YES"
+#          end
+#      end
+#  end
   target 'degpegsdk-ios_Tests' do
     inherit! :search_paths
 
     
   end
+end
+post_install do |installer|
+    installer.pods_project.targets.each do |target|
+        target.build_configurations.each do |config|
+            config.build_settings['SWIFT_VERSION'] = '5.0'
+        end
+    end
 end
