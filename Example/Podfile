@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'degpegsdk-ios_Example' do
+  pod 'degpegsdk-ios', :path => '../'
+
+  target 'degpegsdk-ios_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
