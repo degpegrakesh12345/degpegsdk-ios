@@ -47,7 +47,6 @@
 
 /* Begin PBXFileReference section */
 		0906F3C454FFC217BA276A2E823B9FD9 /* Pods-degpegsdk-ios_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-degpegsdk-ios_Tests.modulemap"; sourceTree = "<group>"; };
-		1801A9DB27D9596F00C8D0B2 /* degpegsdk-ios-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "degpegsdk-ios-Bridging-Header.h"; sourceTree = "<group>"; };
 		1801A9DC27D9596F00C8D0B2 /* MyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTextField.swift; sourceTree = "<group>"; };
 		2236FD12686333E5C521BE3C2816B0C0 /* Pods-degpegsdk-ios_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-degpegsdk-ios_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2391FD909613657F4CA0CE2B7465D3AC /* Pods-degpegsdk-ios_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-degpegsdk-ios_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -109,7 +108,6 @@
 			isa = PBXGroup;
 			children = (
 				1801A9DC27D9596F00C8D0B2 /* MyTextField.swift */,
-				1801A9DB27D9596F00C8D0B2 /* degpegsdk-ios-Bridging-Header.h */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
