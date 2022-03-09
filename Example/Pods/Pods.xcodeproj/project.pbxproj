@@ -6,149 +6,121 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		22D6322481006069ECB2C1D3309CE064 /* degpegsdk-ios */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = DD1361ED4D7F751C6BB93E0789161D58 /* Build configuration list for PBXAggregateTarget "degpegsdk-ios" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "degpegsdk-ios";
+			productName = "degpegsdk-ios";
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		00B58DB3549E8D945FFE6968A78AF9EC /* Pods-degpegsdk-ios_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB85A1E6B32CD7603AA77DCF5790A3E /* Pods-degpegsdk-ios_Tests-dummy.m */; };
-		1801A9D927D9554500C8D0B2 /* MyKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1801A9D827D9554500C8D0B2 /* MyKeyboard.swift */; };
-		2A6987C2C2D0803E011EA88D8E689FCB /* Pods-degpegsdk-ios_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F0CDE939DB77E8E46549B90A64D2368 /* Pods-degpegsdk-ios_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3F69269CF802FEA3A049E5FFC276C13E /* Pods-degpegsdk-ios_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C0C6AF24742B8F7660EEAAAB98BE266 /* Pods-degpegsdk-ios_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		412E8EA104CF1619F1A39A58E5CFC101 /* degpegsdk-ios-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A37037FC764DEF0E5EDD0A2D5F78220 /* degpegsdk-ios-dummy.m */; };
-		41F5C1A8BAC1CBBE66954E712C778E6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		5114667F05AD2DA0F9A502AC67C3CE96 /* degpegsdk-ios-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C947E9EBE284EA8B713554F846CC2442 /* degpegsdk-ios-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5AE4DDD44738B9171445E31D8A488F5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		A487EB7110598D6EE26E4BADAE625066 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		FFA0D8A88C045148CEFA00A44E422EE3 /* Pods-degpegsdk-ios_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF5B070EDBE6EF565E48D42343FD2CC /* Pods-degpegsdk-ios_Example-dummy.m */; };
+		357A6E60605BC4D8639F86EF8C5653E7 /* Pods-degpegsdk-ios_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60DB4F4AD5CB33877B3B7EEDA0D0200F /* Pods-degpegsdk-ios_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		628F2DE5C857E70A63A65854ECD90172 /* Pods-degpegsdk-ios_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2391FD909613657F4CA0CE2B7465D3AC /* Pods-degpegsdk-ios_Tests-dummy.m */; };
+		72D2FB32C004891E02309644818ED9DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8671DA7E9A71CE9E87BB4692E061BAD5 /* Pods-degpegsdk-ios_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C5C9FCE4148840F7D8D9CC575EF06FA /* Pods-degpegsdk-ios_Example-dummy.m */; };
+		EBE5D2FD7004E008E55654F6B6559043 /* Pods-degpegsdk-ios_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 56D99BA3400218833385845B820B9A65 /* Pods-degpegsdk-ios_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0D63DF32A773AEFAC54E3159181B6C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F5952421AC40DCC9F47630769888A54C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 22D6322481006069ECB2C1D3309CE064;
-			remoteInfo = "degpegsdk-ios";
-		};
-		FC7FCC5E54B5CBF24DF812067B26988C /* PBXContainerItemProxy */ = {
+		BD49471211495FB37D32ED2860D92769 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D211CDCE0CC150F151C78C03C3DA79C;
 			remoteInfo = "Pods-degpegsdk-ios_Example";
 		};
+		D6CBF80E9FC3F7361CB3858ADF27364C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22D6322481006069ECB2C1D3309CE064;
+			remoteInfo = "degpegsdk-ios";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07467FCCC3AC4630D7013D73C74D9156 /* degpegsdk-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "degpegsdk-ios.release.xcconfig"; sourceTree = "<group>"; };
-		08D3432E812656D564D0C86B8A93772C /* Pods-degpegsdk-ios_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-degpegsdk-ios_Example.release.xcconfig"; sourceTree = "<group>"; };
-		1801A9D827D9554500C8D0B2 /* MyKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyKeyboard.swift; sourceTree = "<group>"; };
-		1BFAF42786E33C8AFE8A51C97737D74C /* Pods-degpegsdk-ios_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-degpegsdk-ios_Tests-Info.plist"; sourceTree = "<group>"; };
-		1C0C6AF24742B8F7660EEAAAB98BE266 /* Pods-degpegsdk-ios_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-degpegsdk-ios_Tests-umbrella.h"; sourceTree = "<group>"; };
-		210F2B3ABDB67C8E39904EFBB100DAFF /* Pods-degpegsdk-ios_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-degpegsdk-ios_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		2819A076632E4F95598A2174024819BA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		290F0CB3CF3B3391C17A3714ED2D2FE3 /* Pods-degpegsdk-ios_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-degpegsdk-ios_Example-Info.plist"; sourceTree = "<group>"; };
-		2CB85A1E6B32CD7603AA77DCF5790A3E /* Pods-degpegsdk-ios_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-degpegsdk-ios_Tests-dummy.m"; sourceTree = "<group>"; };
-		2CD4F008654A4C1DDE1509A72CDFF0F7 /* Pods-degpegsdk-ios_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-degpegsdk-ios_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		32D9E568A8E38C545EACF2DA681FF00F /* Pods-degpegsdk-ios_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-degpegsdk-ios_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		60D2FBB859EAAD0A1D2C7D29E9675F7B /* Pods-degpegsdk-ios_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-degpegsdk-ios_Example.modulemap"; sourceTree = "<group>"; };
-		6D27020AB11CE8B592EED747B99ED695 /* degpegsdk-ios-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "degpegsdk-ios-prefix.pch"; sourceTree = "<group>"; };
-		6DCC813F4F9915A9DF65019E7C0361DC /* Pods-degpegsdk-ios_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-degpegsdk-ios_Tests"; path = Pods_degpegsdk_ios_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6F17CA910D1D7264A66F69743AEFF7A5 /* Pods-degpegsdk-ios_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-degpegsdk-ios_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		7029BC5795B3088AE11F2712CD2E4178 /* degpegsdk-ios.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "degpegsdk-ios.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		70331C4B1BC894B1CEDC0D1A0214EB75 /* Pods-degpegsdk-ios_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-degpegsdk-ios_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0906F3C454FFC217BA276A2E823B9FD9 /* Pods-degpegsdk-ios_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-degpegsdk-ios_Tests.modulemap"; sourceTree = "<group>"; };
+		1801A9DB27D9596F00C8D0B2 /* degpegsdk-ios-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "degpegsdk-ios-Bridging-Header.h"; sourceTree = "<group>"; };
+		1801A9DC27D9596F00C8D0B2 /* MyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTextField.swift; sourceTree = "<group>"; };
+		2236FD12686333E5C521BE3C2816B0C0 /* Pods-degpegsdk-ios_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-degpegsdk-ios_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2391FD909613657F4CA0CE2B7465D3AC /* Pods-degpegsdk-ios_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-degpegsdk-ios_Tests-dummy.m"; sourceTree = "<group>"; };
+		2D99341069AEDB379F0F288D63C71F7F /* Pods-degpegsdk-ios_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-degpegsdk-ios_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		323184554F6815E1779F41593FDAF562 /* Pods-degpegsdk-ios_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-degpegsdk-ios_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3C704136DDC2D81FF615B1B8585E7C8C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		3DB1A8632D2BD32084B2519EA28A76A2 /* Pods-degpegsdk-ios_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-degpegsdk-ios_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		45FA76FB179D571E7B2412ABEB489B93 /* Pods-degpegsdk-ios_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-degpegsdk-ios_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		5512C0558E0635E4B1E6DCE517AF137E /* degpegsdk-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "degpegsdk-ios.release.xcconfig"; sourceTree = "<group>"; };
+		56D99BA3400218833385845B820B9A65 /* Pods-degpegsdk-ios_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-degpegsdk-ios_Tests-umbrella.h"; sourceTree = "<group>"; };
+		5E012C2E66250D3D307B67EB31D56B13 /* Pods-degpegsdk-ios_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-degpegsdk-ios_Example.release.xcconfig"; sourceTree = "<group>"; };
+		60DB4F4AD5CB33877B3B7EEDA0D0200F /* Pods-degpegsdk-ios_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-degpegsdk-ios_Example-umbrella.h"; sourceTree = "<group>"; };
+		6DCC813F4F9915A9DF65019E7C0361DC /* Pods_degpegsdk_ios_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_degpegsdk_ios_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72FE34A4795BB4365601D2CE8ABF7046 /* degpegsdk-ios.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "degpegsdk-ios.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7E13696471B89B1140917798E708CE9C /* degpegsdk-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "degpegsdk-ios.debug.xcconfig"; sourceTree = "<group>"; };
-		846905980D1D978FD19EB61FCE91E74E /* degpegsdk-ios-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "degpegsdk-ios-Info.plist"; sourceTree = "<group>"; };
-		86DEE059C3B4547AF2D562D85A9A256E /* Pods-degpegsdk-ios_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-degpegsdk-ios_Tests.modulemap"; sourceTree = "<group>"; };
-		8F0CDE939DB77E8E46549B90A64D2368 /* Pods-degpegsdk-ios_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-degpegsdk-ios_Example-umbrella.h"; sourceTree = "<group>"; };
-		9944F009799EFBECF6F6445F909E0120 /* degpegsdk_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = degpegsdk_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A37037FC764DEF0E5EDD0A2D5F78220 /* degpegsdk-ios-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "degpegsdk-ios-dummy.m"; sourceTree = "<group>"; };
-		9B67BDF62DFDCAE48A92AB548E1FF3A8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		8A776EF334AF803054EB0783C2A5A461 /* Pods-degpegsdk-ios_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-degpegsdk-ios_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8C5C9FCE4148840F7D8D9CC575EF06FA /* Pods-degpegsdk-ios_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-degpegsdk-ios_Example-dummy.m"; sourceTree = "<group>"; };
+		8E1AA972038891CE23C88049ACB835B2 /* degpegsdk-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "degpegsdk-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		8FAFE8675404EEACF2B98F17BBA6FFDF /* Pods-degpegsdk-ios_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-degpegsdk-ios_Example-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A6CED57D378F1C1438D8269347F90863 /* Pods-degpegsdk-ios_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-degpegsdk-ios_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		ABF5B070EDBE6EF565E48D42343FD2CC /* Pods-degpegsdk-ios_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-degpegsdk-ios_Example-dummy.m"; sourceTree = "<group>"; };
-		C2D76EFBB9138F7C948A651C626F199F /* Pods-degpegsdk-ios_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-degpegsdk-ios_Example-frameworks.sh"; sourceTree = "<group>"; };
-		C947E9EBE284EA8B713554F846CC2442 /* degpegsdk-ios-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "degpegsdk-ios-umbrella.h"; sourceTree = "<group>"; };
-		D90C79B4E523288A91656C71F5A36EB5 /* Pods-degpegsdk-ios_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-degpegsdk-ios_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EC9D681606DFFF17F85BF4875C77CD5F /* degpegsdk-ios.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "degpegsdk-ios.modulemap"; sourceTree = "<group>"; };
+		AD9A0471A974E1C0800887BCCBDB3270 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BF1406FCDDF71D23E54053153B4BA3DE /* Pods-degpegsdk-ios_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-degpegsdk-ios_Tests-Info.plist"; sourceTree = "<group>"; };
+		DF90729F6808D56BF15C2C33615AE94B /* Pods-degpegsdk-ios_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-degpegsdk-ios_Example.modulemap"; sourceTree = "<group>"; };
 		FA238BC1C67BA6A8162B5FB6E3321FCA /* Pods_degpegsdk_ios_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_degpegsdk_ios_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD7DDC76CAE3BD15E628CBD544457B3C /* Pods-degpegsdk-ios_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-degpegsdk-ios_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		780C97D42F785F8B9CA64A8D9B9AED8C /* Frameworks */ = {
+		7AE5AA65987D242FC679EAB64B3AF93B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A487EB7110598D6EE26E4BADAE625066 /* Foundation.framework in Frameworks */,
+				F0D63DF32A773AEFAC54E3159181B6C2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		95ABCE050F667901A74A980824E283CD /* Frameworks */ = {
+		CD73839EAAC598CDF9A83EC38CF939C7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41F5C1A8BAC1CBBE66954E712C778E6C /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AF7E606947AEE659C7C359F7F737ECB7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5AE4DDD44738B9171445E31D8A488F5D /* Foundation.framework in Frameworks */,
+				72D2FB32C004891E02309644818ED9DE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1801A9D527D954EE00C8D0B2 /* Classes */ = {
+		02E3F4104564F2246D54D71E6AE38DD3 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1801A9D827D9554500C8D0B2 /* MyKeyboard.swift */,
+				8E1AA972038891CE23C88049ACB835B2 /* degpegsdk-ios.debug.xcconfig */,
+				5512C0558E0635E4B1E6DCE517AF137E /* degpegsdk-ios.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/degpegsdk-ios";
+			sourceTree = "<group>";
+		};
+		1801A9DA27D9593400C8D0B2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1801A9DC27D9596F00C8D0B2 /* MyTextField.swift */,
+				1801A9DB27D9596F00C8D0B2 /* degpegsdk-ios-Bridging-Header.h */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		1F08AF391BDA26620DF28FE9B22AF403 /* Development Pods */ = {
+		19C92AC44AA7137E2765CC04D80B50CA /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5C74BB24F7F669FFAA2A4EE89BA5B33D /* degpegsdk-ios */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		2E9B3744301F6EC7B620355D39A4ECF2 /* Pods-degpegsdk-ios_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				86DEE059C3B4547AF2D562D85A9A256E /* Pods-degpegsdk-ios_Tests.modulemap */,
-				D90C79B4E523288A91656C71F5A36EB5 /* Pods-degpegsdk-ios_Tests-acknowledgements.markdown */,
-				70331C4B1BC894B1CEDC0D1A0214EB75 /* Pods-degpegsdk-ios_Tests-acknowledgements.plist */,
-				2CB85A1E6B32CD7603AA77DCF5790A3E /* Pods-degpegsdk-ios_Tests-dummy.m */,
-				1BFAF42786E33C8AFE8A51C97737D74C /* Pods-degpegsdk-ios_Tests-Info.plist */,
-				1C0C6AF24742B8F7660EEAAAB98BE266 /* Pods-degpegsdk-ios_Tests-umbrella.h */,
-				2CD4F008654A4C1DDE1509A72CDFF0F7 /* Pods-degpegsdk-ios_Tests.debug.xcconfig */,
-				210F2B3ABDB67C8E39904EFBB100DAFF /* Pods-degpegsdk-ios_Tests.release.xcconfig */,
-			);
-			name = "Pods-degpegsdk-ios_Tests";
-			path = "Target Support Files/Pods-degpegsdk-ios_Tests";
-			sourceTree = "<group>";
-		};
-		3019AD5568FE48627E9258F80386A118 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5C6B417CEBE1432A695CDBD5CED411E2 /* Pods-degpegsdk-ios_Example */,
-				2E9B3744301F6EC7B620355D39A4ECF2 /* Pods-degpegsdk-ios_Tests */,
+				D46CFE00D6484FDC516F97ED4D1E605F /* Pods-degpegsdk-ios_Example */,
+				7DAEF062D3C0A558D18850849361EBC7 /* Pods-degpegsdk-ios_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		4E2E892B6F61B3089248510CD38B9593 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				7029BC5795B3088AE11F2712CD2E4178 /* degpegsdk-ios.podspec */,
-				9B67BDF62DFDCAE48A92AB548E1FF3A8 /* LICENSE */,
-				2819A076632E4F95598A2174024819BA /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -159,67 +131,60 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		5965611E043B9DB2A8725B8729F74D37 /* Products */ = {
+		7DAEF062D3C0A558D18850849361EBC7 /* Pods-degpegsdk-ios_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				9944F009799EFBECF6F6445F909E0120 /* degpegsdk_ios.framework */,
-				FA238BC1C67BA6A8162B5FB6E3321FCA /* Pods_degpegsdk_ios_Example.framework */,
-				6DCC813F4F9915A9DF65019E7C0361DC /* Pods-degpegsdk-ios_Tests */,
+				0906F3C454FFC217BA276A2E823B9FD9 /* Pods-degpegsdk-ios_Tests.modulemap */,
+				2D99341069AEDB379F0F288D63C71F7F /* Pods-degpegsdk-ios_Tests-acknowledgements.markdown */,
+				FD7DDC76CAE3BD15E628CBD544457B3C /* Pods-degpegsdk-ios_Tests-acknowledgements.plist */,
+				2391FD909613657F4CA0CE2B7465D3AC /* Pods-degpegsdk-ios_Tests-dummy.m */,
+				BF1406FCDDF71D23E54053153B4BA3DE /* Pods-degpegsdk-ios_Tests-Info.plist */,
+				56D99BA3400218833385845B820B9A65 /* Pods-degpegsdk-ios_Tests-umbrella.h */,
+				8A776EF334AF803054EB0783C2A5A461 /* Pods-degpegsdk-ios_Tests.debug.xcconfig */,
+				2236FD12686333E5C521BE3C2816B0C0 /* Pods-degpegsdk-ios_Tests.release.xcconfig */,
 			);
-			name = Products;
+			name = "Pods-degpegsdk-ios_Tests";
+			path = "Target Support Files/Pods-degpegsdk-ios_Tests";
 			sourceTree = "<group>";
 		};
-		5C6B417CEBE1432A695CDBD5CED411E2 /* Pods-degpegsdk-ios_Example */ = {
+		8BCCD35B4BE9D22846D3908636B5BA0E /* degpegsdk-ios */ = {
 			isa = PBXGroup;
 			children = (
-				60D2FBB859EAAD0A1D2C7D29E9675F7B /* Pods-degpegsdk-ios_Example.modulemap */,
-				A6CED57D378F1C1438D8269347F90863 /* Pods-degpegsdk-ios_Example-acknowledgements.markdown */,
-				32D9E568A8E38C545EACF2DA681FF00F /* Pods-degpegsdk-ios_Example-acknowledgements.plist */,
-				ABF5B070EDBE6EF565E48D42343FD2CC /* Pods-degpegsdk-ios_Example-dummy.m */,
-				C2D76EFBB9138F7C948A651C626F199F /* Pods-degpegsdk-ios_Example-frameworks.sh */,
-				290F0CB3CF3B3391C17A3714ED2D2FE3 /* Pods-degpegsdk-ios_Example-Info.plist */,
-				8F0CDE939DB77E8E46549B90A64D2368 /* Pods-degpegsdk-ios_Example-umbrella.h */,
-				6F17CA910D1D7264A66F69743AEFF7A5 /* Pods-degpegsdk-ios_Example.debug.xcconfig */,
-				08D3432E812656D564D0C86B8A93772C /* Pods-degpegsdk-ios_Example.release.xcconfig */,
-			);
-			name = "Pods-degpegsdk-ios_Example";
-			path = "Target Support Files/Pods-degpegsdk-ios_Example";
-			sourceTree = "<group>";
-		};
-		5C74BB24F7F669FFAA2A4EE89BA5B33D /* degpegsdk-ios */ = {
-			isa = PBXGroup;
-			children = (
-				1801A9D527D954EE00C8D0B2 /* Classes */,
-				4E2E892B6F61B3089248510CD38B9593 /* Pod */,
-				8658FD9C0262609AD19A3392CE7CDF7A /* Support Files */,
+				1801A9DA27D9593400C8D0B2 /* Classes */,
+				9662F99346E9D8CE844A0EC6C37306FF /* Pod */,
+				02E3F4104564F2246D54D71E6AE38DD3 /* Support Files */,
 			);
 			name = "degpegsdk-ios";
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		8658FD9C0262609AD19A3392CE7CDF7A /* Support Files */ = {
+		9662F99346E9D8CE844A0EC6C37306FF /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				EC9D681606DFFF17F85BF4875C77CD5F /* degpegsdk-ios.modulemap */,
-				9A37037FC764DEF0E5EDD0A2D5F78220 /* degpegsdk-ios-dummy.m */,
-				846905980D1D978FD19EB61FCE91E74E /* degpegsdk-ios-Info.plist */,
-				6D27020AB11CE8B592EED747B99ED695 /* degpegsdk-ios-prefix.pch */,
-				C947E9EBE284EA8B713554F846CC2442 /* degpegsdk-ios-umbrella.h */,
-				7E13696471B89B1140917798E708CE9C /* degpegsdk-ios.debug.xcconfig */,
-				07467FCCC3AC4630D7013D73C74D9156 /* degpegsdk-ios.release.xcconfig */,
+				72FE34A4795BB4365601D2CE8ABF7046 /* degpegsdk-ios.podspec */,
+				3C704136DDC2D81FF615B1B8585E7C8C /* LICENSE */,
+				AD9A0471A974E1C0800887BCCBDB3270 /* README.md */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/degpegsdk-ios";
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B0F7FF834713491BE656A795A77E4CC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA238BC1C67BA6A8162B5FB6E3321FCA /* Pods_degpegsdk_ios_Example.framework */,
+				6DCC813F4F9915A9DF65019E7C0361DC /* Pods_degpegsdk_ios_Tests.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				1F08AF391BDA26620DF28FE9B22AF403 /* Development Pods */,
+				E4ADFC1BC74EFDBE115DEBFADBF47128 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				5965611E043B9DB2A8725B8729F74D37 /* Products */,
-				3019AD5568FE48627E9258F80386A118 /* Targets Support Files */,
+				B0F7FF834713491BE656A795A77E4CC6 /* Products */,
+				19C92AC44AA7137E2765CC04D80B50CA /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -231,90 +196,88 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D46CFE00D6484FDC516F97ED4D1E605F /* Pods-degpegsdk-ios_Example */ = {
+			isa = PBXGroup;
+			children = (
+				DF90729F6808D56BF15C2C33615AE94B /* Pods-degpegsdk-ios_Example.modulemap */,
+				3DB1A8632D2BD32084B2519EA28A76A2 /* Pods-degpegsdk-ios_Example-acknowledgements.markdown */,
+				45FA76FB179D571E7B2412ABEB489B93 /* Pods-degpegsdk-ios_Example-acknowledgements.plist */,
+				8C5C9FCE4148840F7D8D9CC575EF06FA /* Pods-degpegsdk-ios_Example-dummy.m */,
+				8FAFE8675404EEACF2B98F17BBA6FFDF /* Pods-degpegsdk-ios_Example-Info.plist */,
+				60DB4F4AD5CB33877B3B7EEDA0D0200F /* Pods-degpegsdk-ios_Example-umbrella.h */,
+				323184554F6815E1779F41593FDAF562 /* Pods-degpegsdk-ios_Example.debug.xcconfig */,
+				5E012C2E66250D3D307B67EB31D56B13 /* Pods-degpegsdk-ios_Example.release.xcconfig */,
+			);
+			name = "Pods-degpegsdk-ios_Example";
+			path = "Target Support Files/Pods-degpegsdk-ios_Example";
+			sourceTree = "<group>";
+		};
+		E4ADFC1BC74EFDBE115DEBFADBF47128 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8BCCD35B4BE9D22846D3908636B5BA0E /* degpegsdk-ios */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3E3948BD597DA6BC780432C885D7C13E /* Headers */ = {
+		1A30A16FDB223A5A242E14B934833745 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5114667F05AD2DA0F9A502AC67C3CE96 /* degpegsdk-ios-umbrella.h in Headers */,
+				EBE5D2FD7004E008E55654F6B6559043 /* Pods-degpegsdk-ios_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5BED9EC854478303A99CF63B432A0D55 /* Headers */ = {
+		D2CA7EEF409422EA215991DAEEAC79F0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F69269CF802FEA3A049E5FFC276C13E /* Pods-degpegsdk-ios_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		940AE5A91A9F29A177E5884E60373236 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2A6987C2C2D0803E011EA88D8E689FCB /* Pods-degpegsdk-ios_Example-umbrella.h in Headers */,
+				357A6E60605BC4D8639F86EF8C5653E7 /* Pods-degpegsdk-ios_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		22D6322481006069ECB2C1D3309CE064 /* degpegsdk-ios */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CB587E6A6FB5FB31E3936B7D533BC261 /* Build configuration list for PBXNativeTarget "degpegsdk-ios" */;
-			buildPhases = (
-				3E3948BD597DA6BC780432C885D7C13E /* Headers */,
-				7CA3EE1C02DB8BBAF52BE0F615DC1857 /* Sources */,
-				95ABCE050F667901A74A980824E283CD /* Frameworks */,
-				9515F297144D5F07FF181A848774656E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "degpegsdk-ios";
-			productName = degpegsdk_ios;
-			productReference = 9944F009799EFBECF6F6445F909E0120 /* degpegsdk_ios.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		2D211CDCE0CC150F151C78C03C3DA79C /* Pods-degpegsdk-ios_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7B5759F7F2335464623CA5828914C3EF /* Build configuration list for PBXNativeTarget "Pods-degpegsdk-ios_Example" */;
+			buildConfigurationList = 714F79BBC44F7E06D64074E005B23983 /* Build configuration list for PBXNativeTarget "Pods-degpegsdk-ios_Example" */;
 			buildPhases = (
-				940AE5A91A9F29A177E5884E60373236 /* Headers */,
-				A806CE4DC25B9878A94029377636F698 /* Sources */,
-				AF7E606947AEE659C7C359F7F737ECB7 /* Frameworks */,
-				D6762A7A5CC2C79B9BD925F944182CAE /* Resources */,
+				D2CA7EEF409422EA215991DAEEAC79F0 /* Headers */,
+				4FD725BBF3EFFB48D728BE681C7F7541 /* Sources */,
+				CD73839EAAC598CDF9A83EC38CF939C7 /* Frameworks */,
+				732C309FAD769984E46560C4B645DCB4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D79B660EBE0B050982431230E77EE48C /* PBXTargetDependency */,
+				4AE9DA560E490A5DCF3D30999BE9970F /* PBXTargetDependency */,
 			);
 			name = "Pods-degpegsdk-ios_Example";
-			productName = Pods_degpegsdk_ios_Example;
+			productName = "Pods-degpegsdk-ios_Example";
 			productReference = FA238BC1C67BA6A8162B5FB6E3321FCA /* Pods_degpegsdk_ios_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B27DAFDACA786C7CF4F261B312A313FA /* Pods-degpegsdk-ios_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8490A58C400B5FE12818126134335046 /* Build configuration list for PBXNativeTarget "Pods-degpegsdk-ios_Tests" */;
+			buildConfigurationList = 3CCF091CD5FEAF1ABC3F82E77051F295 /* Build configuration list for PBXNativeTarget "Pods-degpegsdk-ios_Tests" */;
 			buildPhases = (
-				5BED9EC854478303A99CF63B432A0D55 /* Headers */,
-				F53EB81D2A11019766B9F7905211AB22 /* Sources */,
-				780C97D42F785F8B9CA64A8D9B9AED8C /* Frameworks */,
-				2EFC3EC234AF6329A180379CCD4F996C /* Resources */,
+				1A30A16FDB223A5A242E14B934833745 /* Headers */,
+				FE86ECFFD887C1C61A9EF4F7EE10C9C9 /* Sources */,
+				7AE5AA65987D242FC679EAB64B3AF93B /* Frameworks */,
+				2BC62BFCBA880FF1CFDAAB6043020DF3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5E95B5A60BC5D9D00F200A62EB3CEA68 /* PBXTargetDependency */,
+				75353A9292E3FC0447B7EBF4ACDDC880 /* PBXTargetDependency */,
 			);
 			name = "Pods-degpegsdk-ios_Tests";
-			productName = Pods_degpegsdk_ios_Tests;
-			productReference = 6DCC813F4F9915A9DF65019E7C0361DC /* Pods-degpegsdk-ios_Tests */;
+			productName = "Pods-degpegsdk-ios_Tests";
+			productReference = 6DCC813F4F9915A9DF65019E7C0361DC /* Pods_degpegsdk_ios_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -325,17 +288,22 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					22D6322481006069ECB2C1D3309CE064 = {
+						LastSwiftMigration = 1320;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				Base,
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 5965611E043B9DB2A8725B8729F74D37 /* Products */;
+			productRefGroup = B0F7FF834713491BE656A795A77E4CC6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -347,21 +315,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2EFC3EC234AF6329A180379CCD4F996C /* Resources */ = {
+		2BC62BFCBA880FF1CFDAAB6043020DF3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9515F297144D5F07FF181A848774656E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D6762A7A5CC2C79B9BD925F944182CAE /* Resources */ = {
+		732C309FAD769984E46560C4B645DCB4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -371,52 +332,43 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7CA3EE1C02DB8BBAF52BE0F615DC1857 /* Sources */ = {
+		4FD725BBF3EFFB48D728BE681C7F7541 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1801A9D927D9554500C8D0B2 /* MyKeyboard.swift in Sources */,
-				412E8EA104CF1619F1A39A58E5CFC101 /* degpegsdk-ios-dummy.m in Sources */,
+				8671DA7E9A71CE9E87BB4692E061BAD5 /* Pods-degpegsdk-ios_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A806CE4DC25B9878A94029377636F698 /* Sources */ = {
+		FE86ECFFD887C1C61A9EF4F7EE10C9C9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFA0D8A88C045148CEFA00A44E422EE3 /* Pods-degpegsdk-ios_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F53EB81D2A11019766B9F7905211AB22 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				00B58DB3549E8D945FFE6968A78AF9EC /* Pods-degpegsdk-ios_Tests-dummy.m in Sources */,
+				628F2DE5C857E70A63A65854ECD90172 /* Pods-degpegsdk-ios_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5E95B5A60BC5D9D00F200A62EB3CEA68 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-degpegsdk-ios_Example";
-			target = 2D211CDCE0CC150F151C78C03C3DA79C /* Pods-degpegsdk-ios_Example */;
-			targetProxy = FC7FCC5E54B5CBF24DF812067B26988C /* PBXContainerItemProxy */;
-		};
-		D79B660EBE0B050982431230E77EE48C /* PBXTargetDependency */ = {
+		4AE9DA560E490A5DCF3D30999BE9970F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "degpegsdk-ios";
 			target = 22D6322481006069ECB2C1D3309CE064 /* degpegsdk-ios */;
-			targetProxy = F5952421AC40DCC9F47630769888A54C /* PBXContainerItemProxy */;
+			targetProxy = D6CBF80E9FC3F7361CB3858ADF27364C /* PBXContainerItemProxy */;
+		};
+		75353A9292E3FC0447B7EBF4ACDDC880 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-degpegsdk-ios_Example";
+			target = 2D211CDCE0CC150F151C78C03C3DA79C /* Pods-degpegsdk-ios_Example */;
+			targetProxy = BD49471211495FB37D32ED2860D92769 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		01CF15465C22C0F17AF22EB6BEC081C8 /* Debug */ = {
+		03F89AE9ADF747087A7B767294407384 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F17CA910D1D7264A66F69743AEFF7A5 /* Pods-degpegsdk-ios_Example.debug.xcconfig */;
+			baseConfigurationReference = 8A776EF334AF803054EB0783C2A5A461 /* Pods-degpegsdk-ios_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -427,12 +379,13 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-degpegsdk-ios_Example/Pods-degpegsdk-ios_Example-Info.plist";
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-degpegsdk-ios_Tests/Pods-degpegsdk-ios_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-degpegsdk-ios_Example/Pods-degpegsdk-ios_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-degpegsdk-ios_Tests/Pods-degpegsdk-ios_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -445,37 +398,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		02086D02740767CD940183BBD1000661 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07467FCCC3AC4630D7013D73C74D9156 /* degpegsdk-ios.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/degpegsdk-ios/degpegsdk-ios-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/degpegsdk-ios/degpegsdk-ios-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/degpegsdk-ios/degpegsdk-ios.modulemap";
-				PRODUCT_MODULE_NAME = degpegsdk_ios;
-				PRODUCT_NAME = degpegsdk_ios;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -543,41 +465,28 @@
 			};
 			name = Debug;
 		};
-		35EAC81C95A382E3FF30030E620B737B /* Debug */ = {
+		268070FDC06D2198EDBA3E44446CCE4B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2CD4F008654A4C1DDE1509A72CDFF0F7 /* Pods-degpegsdk-ios_Tests.debug.xcconfig */;
+			baseConfigurationReference = 5512C0558E0635E4B1E6DCE517AF137E /* degpegsdk-ios.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-degpegsdk-ios_Tests/Pods-degpegsdk-ios_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-degpegsdk-ios_Tests/Pods-degpegsdk-ios_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "../../Classes/degpegsdk-ios-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
-		581BFCF5FB5DE402728744ACAB7C3BD2 /* Release */ = {
+		635825BEF6D60BD0EDA04662165F0814 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 08D3432E812656D564D0C86B8A93772C /* Pods-degpegsdk-ios_Example.release.xcconfig */;
+			baseConfigurationReference = 5E012C2E66250D3D307B67EB31D56B13 /* Pods-degpegsdk-ios_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -588,6 +497,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-degpegsdk-ios_Example/Pods-degpegsdk-ios_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -608,39 +518,9 @@
 			};
 			name = Release;
 		};
-		90E97247850C59249F0F35AAAEE4A96D /* Debug */ = {
+		86D7DB3EAFC4DA6D08B0DDA7FB5A56E6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E13696471B89B1140917798E708CE9C /* degpegsdk-ios.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/degpegsdk-ios/degpegsdk-ios-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/degpegsdk-ios/degpegsdk-ios-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/degpegsdk-ios/degpegsdk-ios.modulemap";
-				PRODUCT_MODULE_NAME = degpegsdk_ios;
-				PRODUCT_NAME = degpegsdk_ios;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A6FD72D7392EB6DAF6BF0923EAE6F48A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 210F2B3ABDB67C8E39904EFBB100DAFF /* Pods-degpegsdk-ios_Tests.release.xcconfig */;
+			baseConfigurationReference = 2236FD12686333E5C521BE3C2816B0C0 /* Pods-degpegsdk-ios_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -651,6 +531,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-degpegsdk-ios_Tests/Pods-degpegsdk-ios_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -670,6 +551,58 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		961713E71DC40316B3EE98344E4EB61B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E1AA972038891CE23C88049ACB835B2 /* degpegsdk-ios.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "../../Classes/degpegsdk-ios-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		97B884F1DC5A92DBA68C617A1B5F503C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 323184554F6815E1779F41593FDAF562 /* Pods-degpegsdk-ios_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-degpegsdk-ios_Example/Pods-degpegsdk-ios_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-degpegsdk-ios_Example/Pods-degpegsdk-ios_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -735,6 +668,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3CCF091CD5FEAF1ABC3F82E77051F295 /* Build configuration list for PBXNativeTarget "Pods-degpegsdk-ios_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03F89AE9ADF747087A7B767294407384 /* Debug */,
+				86D7DB3EAFC4DA6D08B0DDA7FB5A56E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -744,29 +686,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7B5759F7F2335464623CA5828914C3EF /* Build configuration list for PBXNativeTarget "Pods-degpegsdk-ios_Example" */ = {
+		714F79BBC44F7E06D64074E005B23983 /* Build configuration list for PBXNativeTarget "Pods-degpegsdk-ios_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				01CF15465C22C0F17AF22EB6BEC081C8 /* Debug */,
-				581BFCF5FB5DE402728744ACAB7C3BD2 /* Release */,
+				97B884F1DC5A92DBA68C617A1B5F503C /* Debug */,
+				635825BEF6D60BD0EDA04662165F0814 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8490A58C400B5FE12818126134335046 /* Build configuration list for PBXNativeTarget "Pods-degpegsdk-ios_Tests" */ = {
+		DD1361ED4D7F751C6BB93E0789161D58 /* Build configuration list for PBXAggregateTarget "degpegsdk-ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				35EAC81C95A382E3FF30030E620B737B /* Debug */,
-				A6FD72D7392EB6DAF6BF0923EAE6F48A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CB587E6A6FB5FB31E3936B7D533BC261 /* Build configuration list for PBXNativeTarget "degpegsdk-ios" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				90E97247850C59249F0F35AAAEE4A96D /* Debug */,
-				02086D02740767CD940183BBD1000661 /* Release */,
+				961713E71DC40316B3EE98344E4EB61B /* Debug */,
+				268070FDC06D2198EDBA3E44446CCE4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

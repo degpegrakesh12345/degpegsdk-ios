@@ -9,16 +9,21 @@
     "file": "LICENSE"
   },
   "authors": {
-    "degpegrakesh12345": "rkkumar.gbpec@gmail.com"
+    "degpegrakesh12345": "rakesh.kumar@degpeg.com"
   },
   "source": {
     "git": "https://github.com/degpegrakesh12345/degpegsdk-ios.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "13.0"
   },
   "swift_versions": "5.0",
   "source_files": "degpegsdk-ios/Classes/**/*",
+  "public_header_files": "Pod/Classes/**/*.h",
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ],
   "swift_version": "5.0"
 }

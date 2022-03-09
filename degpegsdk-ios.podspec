@@ -25,20 +25,19 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'degpegrakesh12345' => 'rakesh.kumar@degpeg.com' }
-#  s.source           = { :git => 'https://github.com/degpegrakesh12345/degpegsdk-ios.git', :tag => s.version.to_s }
-  s.source       = { :git => "https://github.com/degpegrakesh12345/degpegsdk-ios.git", :commit => "0d6761feefccff1f7d8b7c7788ceb8e9cd1314ea" }
-  s.source_files  = 'Classes/*.{h,m}'
+  s.source           = { :git => 'https://github.com/degpegrakesh12345/degpegsdk-ios.git', :tag => s.version.to_s }
+#  s.source_files  = 'Classes/*.{h,m}'
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '13.0'
   s.swift_versions = '5.0'
-#  s.source_files = 'degpegsdk-ios/Classes/**/*'
+  s.source_files = 'degpegsdk-ios/Classes/**/*'
   
   # s.resource_bundles = {
   #   'degpegsdk-ios' => ['degpegsdk-ios/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+#   s.public_header_files = 'Pod/Classes/**/*.h'
+#   s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

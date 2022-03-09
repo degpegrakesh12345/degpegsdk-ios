@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  degpegsdk-ios: a3842ed0127c5a741450af53f70a1077d1110310
+  degpegsdk-ios: 9b88986df61b0a9dcd6222441fd1f157a5fb2c9d
 
 PODFILE CHECKSUM: 51e88b9826804c87b2dbfe5ce49feb6ae29c2be8
 
